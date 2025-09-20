@@ -19,7 +19,6 @@ Der manuelle Clearing-Prozess ist zeitaufwendig und fehleranfällig. Dieses Tool
 
 ## Technologien
 - Python
-- Pandas
 - OpenPyXL
 - Tkinter
 
