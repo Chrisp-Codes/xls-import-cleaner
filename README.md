@@ -25,3 +25,12 @@ Der manuelle Clearing-Prozess ist zeitaufwendig und fehleranfällig. Dieses Tool
 
 ## Hinweis
 Dies ist ein **POC** und nicht offiziell freigegeben. Nutzung erfolgt auf eigene Verantwortung.
+
+
+## Deployment (optional)
+
+Das Tool kann bei Bedarf zu einer eigenständigen `.exe` kompiliert werden:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole src/gui.py
