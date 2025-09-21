@@ -1,3 +1,5 @@
+[Deutsche Version](README.md)
+
 # XLS Import Cleaner (POC)
 
 ## Overview
