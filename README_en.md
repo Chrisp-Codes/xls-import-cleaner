@@ -1,35 +1,35 @@
+# XLS Import Cleaner (Proof of Concept)
+
 [Deutsche Version](README.md)
 
-# XLS Import Cleaner (POC)
+## Problem Statement
 
-## Overview
-This repository contains a **proof of concept** for a small Python tool that automates the cleanup of Excel import files.  
-The goal is to reduce the manual effort required for "clearing" before re-imports and to minimize potential errors.
+When re-importing Excel files into HR systems (e.g. to update employee records), there is a significant risk of unintentionally overwriting or deleting existing data. Manual cleaning of import files prior to upload is time-consuming and prone to human error.
 
-## How It Works
-- Opens an XLS/XLSX file  
-- Clears specific cells/columns/rows based on defined rules  
-- Saves the file as a new version with a modified name  
+## Objective
 
-## Motivation
-The manual clearing process is time-consuming and error-prone.  
-This tool serves as a **proof of concept** to demonstrate how the process can be automated.
+This tool aims to automate the data cleaning process to reduce errors and save time. It serves as a technical proof of concept to validate the feasibility of such automation.
 
-## Status
-- Currently developed as a private demo  
-- **Not intended for production use**  
-- Tested only with example and test data  
+## Functionality
 
-## Technologies
-- Python  
-- OpenPyXL  
-- Tkinter  
+- Opens `.xls` / `.xlsx` files
+- Clears or removes predefined cells, columns, or rows
+- Saves a cleaned copy of the original file for further processing
 
-## Disclaimer
-This is a **POC project** and not officially released. Use at your own risk.
+## Project Status
 
-## Deployment (optional)
-The tool can be compiled into a standalone `.exe` if needed:
+- Not intended for production use
+- Tested with anonymized sample and test data
+- Built solely for technical demonstration purposes
+
+## Technologies Used
+
+- Python 3.x
+- openpyxl (for Excel file handling)
+- tkinter (for the GUI)
+- Optional: pyinstaller (to create an executable)
+
+## Optional: Build as `.exe`
 
 ```bash
 pip install pyinstaller
