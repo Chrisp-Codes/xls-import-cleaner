@@ -1,36 +1,35 @@
+# XLS Import Cleaner (Proof of Concept)
+
 [English Version](README_en.md)
 
-# XLS Import Cleaner (POC)
+## Problemstellung
 
-## Überblick
-Dieses Repository enthält ein Proof of Concept für ein kleines Python-Tool zur automatisierten Bereinigung von Excel-Importdateien.  
-Ziel ist es, den manuellen Aufwand beim "Clearing" vor Re-Imports zu reduzieren und potenzielle Fehlerquellen zu minimieren.
+Beim Re-Import von Excel-Dateien in HR-Systeme (zum Beispiel zur Aktualisierung von Mitarbeiterdaten) besteht die Gefahr, dass unbeabsichtigt bestehende Datensätze überschrieben oder gelöscht werden. Der manuelle Bereinigungsprozess vor dem Import ist fehleranfällig und zeitaufwendig.
+
+## Zielsetzung
+
+Dieses Tool soll den Prozess der Datenbereinigung automatisieren, um Fehler zu vermeiden und Zeit zu sparen. Es handelt sich um eine technische Machbarkeitsstudie (Proof of Concept) zur Validierung des Lösungsansatzes.
 
 ## Funktionsweise
-- Öffnet eine XLS/XLSX-Datei
-- Leert definierte Zellen/Spalten/Zeilen
-- Speichert die Datei als neue Version ab
 
-## Motivation
-Der manuelle Clearing-Prozess ist zeitaufwendig und fehleranfällig. Dieses Tool dient als Machbarkeitsstudie (Proof of Concept), um zu zeigen, wie sich der Prozess automatisieren lässt.
+- Öffnet `.xls` / `.xlsx`-Dateien
+- Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
+- Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
 
 ## Status
-- Aktuell nur als private Demo entwickelt
-- Nicht für den produktiven Einsatz freigegeben
-- Getestet mit Beispiel- und Testdaten
+
+- Nicht für den produktiven Einsatz vorgesehen
+- Entwickelt und getestet mit anonymisierten Beispiel- und Testdaten
+- Dient ausschließlich der technischen Demonstration
 
 ## Technologien
-- Python
-- OpenPyXL
-- Tkinter
 
-## Hinweis
-Dies ist ein **POC** und nicht offiziell freigegeben. Nutzung erfolgt auf eigene Verantwortung.
+- Python 3.x
+- openpyxl (Excel-Dateiverarbeitung)
+- tkinter (GUI)
+- Optional: pyinstaller (für die Erstellung einer ausführbaren Datei)
 
-
-## Deployment (optional)
-
-Das Tool kann bei Bedarf zu einer eigenständigen `.exe` kompiliert werden:
+## Kompilierung als `.exe` (optional)
 
 ```bash
 pip install pyinstaller
