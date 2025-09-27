@@ -3,6 +3,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-POC-orange)
 ![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
+![Tests](https://github.com/Chrisp-Codes/xls-import-cleaner/actions/workflows/python-tests.yml/badge.svg)
+
 
 [English Version](README_en.md)
 
