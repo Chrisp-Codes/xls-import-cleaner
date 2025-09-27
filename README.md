@@ -27,7 +27,7 @@ Dieses Tool soll den Prozess der Datenbereinigung automatisieren, um Fehler zu v
 - Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
 - Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
 
-## 🎬 Demo
+## Demo
 
 ![XLS Import Cleaner Demo](import-cleaner.gif)
 
