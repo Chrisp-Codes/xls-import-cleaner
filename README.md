@@ -1,12 +1,12 @@
 # XLS Import Cleaner (Proof of Concept)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Excel VBA](https://img.shields.io/badge/Microsoft%20Excel-VBA-green?logo=microsoft-excel&logoColor=white)
+![Language](https://img.shields.io/badge/language-VBA-blue)
 ![Status](https://img.shields.io/badge/status-POC-orange)
-![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
-![Tests](https://github.com/Chrisp-Codes/xls-import-cleaner/actions/workflows/python-tests.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![English](https://img.shields.io/badge/README-English-informational?style=flat-square)](README_en.md)
+[![Deutsch](https://img.shields.io/badge/README-Deutsch-informational?style=flat-square)](README.md)
 
 
-[English Version](README_en.md)
 
 ## Problemstellung
 
