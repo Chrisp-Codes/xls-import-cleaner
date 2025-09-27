@@ -21,6 +21,19 @@ Dieses Tool soll den Prozess der Datenbereinigung automatisieren, um Fehler zu v
 - Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
 - Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
 
+## Funktionsweise
+
+- Öffnet `.xls` / `.xlsx`-Dateien
+- Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
+- Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
+
+## 🎬 Demo
+
+![XLS Import Cleaner Demo](import-cleaner.gif)
+
+## Tests
+
+
 ## Tests
 
 Dieses Projekt nutzt [pytest](https://docs.pytest.org/) für automatisierte Tests.
