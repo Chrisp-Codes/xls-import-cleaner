@@ -1,6 +1,9 @@
 # XLS Import Cleaner (Proof of Concept)
-
-[Deutsche Version](README.md)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/status-POC-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![English](https://img.shields.io/badge/README-English-informational?style=flat-square)](README_en.md)
+[![Deutsch](https://img.shields.io/badge/README-Deutsch-informational?style=flat-square)](README.md)
 
 ## Problem Statement
 
