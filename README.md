@@ -33,9 +33,6 @@ Dieses Tool soll den Prozess der Datenbereinigung automatisieren, um Fehler zu v
 
 ## Tests
 
-
-## Tests
-
 Dieses Projekt nutzt [pytest](https://docs.pytest.org/) für automatisierte Tests.
 
 ### Ausführen der Tests (lokal)
