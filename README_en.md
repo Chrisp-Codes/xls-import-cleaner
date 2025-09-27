@@ -18,6 +18,15 @@ This tool aims to automate the data cleaning process to prevent errors and save 
 - Opens `.xls` / `.xlsx` files
 - Clears or removes predefined cells, columns, or rows
 - Saves a cleaned copy of the file for further processing
+## Funktionsweise
+
+- Öffnet `.xls` / `.xlsx`-Dateien
+- Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
+- Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
+
+## Demo
+
+![XLS Import Cleaner Demo](import-cleaner.gif)
 
 ## Tests
 
