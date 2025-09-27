@@ -7,33 +7,53 @@
 
 ## Problem Statement
 
-When re-importing Excel files into HR systems (e.g. to update employee records), there is a significant risk of unintentionally overwriting or deleting existing data. Manual cleaning of import files prior to upload is time-consuming and prone to human error.
+When re-importing Excel files into HR systems (e.g., to update employee data), there is a risk of unintentionally overwriting or deleting existing records. The manual cleaning process before import is error-prone and time-consuming.
 
 ## Objective
 
-This tool aims to automate the data cleaning process to reduce errors and save time. It serves as a technical proof of concept to validate the feasibility of such automation.
+This tool aims to automate the data cleaning process to prevent errors and save time. It is a technical proof of concept (PoC) to validate the proposed approach.
 
 ## Functionality
 
 - Opens `.xls` / `.xlsx` files
 - Clears or removes predefined cells, columns, or rows
-- Saves a cleaned copy of the original file for further processing
+- Saves a cleaned copy of the file for further processing
 
-## Project Status
+## Tests
+
+This project uses [pytest](https://docs.pytest.org/) for automated testing.
+
+### Running the tests (locally)
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+### Covered by tests:
+
+- ✅ Successful cleaning run with example file  
+- ❌ Proper error handling if “Personalnummer” is missing  
+- 📝 More tests planned
+
+All tests run automatically on each push via [GitHub Actions](https://github.com/Chrisp-Codes/xls-import-cleaner/actions).
+
+## Status
 
 - Not intended for production use
-- Tested with anonymized sample and test data
-- Built solely for technical demonstration purposes
+- Developed and tested with anonymized sample/test data
+- Solely for technical demonstration
 
-## Technologies Used
+## Technologies
 
 - Python 3.x
-- openpyxl (for Excel file handling)
-- tkinter (for the GUI)
-- Optional: pyinstaller (to create an executable)
+- openpyxl (Excel processing)
+- tkinter (GUI)
+- Optional: pyinstaller (for generating an executable)
 
-## Optional: Build as `.exe`
+## Compiling as `.exe` (optional)
 
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole src/gui.py
+```
