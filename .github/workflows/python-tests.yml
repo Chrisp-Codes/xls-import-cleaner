@@ -1,0 +1,26 @@
+name: Python Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Repository klonen
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: 📦 Abhängigkeiten installieren
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: 🧪 Tests ausführen
+        run: pytest
