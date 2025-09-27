@@ -1,6 +1,5 @@
 # XLS Import Cleaner (Proof of Concept)
-![Excel VBA](https://img.shields.io/badge/Microsoft%20Excel-VBA-green?logo=microsoft-excel&logoColor=white)
-![Language](https://img.shields.io/badge/language-VBA-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-POC-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 [![English](https://img.shields.io/badge/README-English-informational?style=flat-square)](README_en.md)
