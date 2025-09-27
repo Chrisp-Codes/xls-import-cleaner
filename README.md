@@ -21,6 +21,25 @@ Dieses Tool soll den Prozess der Datenbereinigung automatisieren, um Fehler zu v
 - Leert oder entfernt vordefinierte Zellen, Spalten oder Zeilen
 - Speichert eine bereinigte Kopie der Datei zur Weiterverarbeitung
 
+## Tests
+
+Dieses Projekt nutzt [pytest](https://docs.pytest.org/) für automatisierte Tests.
+
+### Ausführen der Tests (lokal)
+### Getestet wird:
+
+- ✅ Erfolgreicher Bereinigungslauf mit Beispiel-Datei  
+- ❌ Korrektes Fehlverhalten bei fehlender „Personalnummer“  
+- 📝 Weitere Tests geplant
+
+Die Tests laufen automatisch bei jedem Push via [GitHub Actions](https://github.com/Chrisp-Codes/xls-import-cleaner/actions).
+
+
+```bash
+pip install -r requirements.txt
+pytest
+````
+
 ## Status
 
 - Nicht für den produktiven Einsatz vorgesehen
