@@ -1,4 +1,4 @@
-# XLS Import Cleaner (Proof of Concept)
+# XLS Import Cleaner
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-POC-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
@@ -44,9 +44,8 @@ All tests run automatically on each push via [GitHub Actions](https://github.com
 
 ## Status
 
-- Not intended for production use
-- Developed and tested with anonymized sample/test data
-- Solely for technical demonstration
+Developed and tested with anonymized sample and test data.
+Not tested against all HR system export formats.
 
 ## Technologies
 
